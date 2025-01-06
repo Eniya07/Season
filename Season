@@ -1,0 +1,26 @@
+import java.util.*;
+public class Season{
+    public static void main(String[]args){
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the temperature");
+        float t=sc.nextFloat();
+        if(t<0){
+            System.out.println("you should be wear a winter clothes");
+            System.out.println("Don't forget your gloves");
+        }
+        else if(t>0&&t<10){
+            System.out.println("you should be wear warm clothes");
+            System.out.println("lite jacket will be helpfull");
+        }
+        else if(t>=11&&t<20){
+            System.out.println("you should be wear lite clothes");
+            System.out.println("sun glass should be good idea");
+        }
+        else{
+            System.out.println("you should be wear a summer clothes");
+            System.out.println("carry sunscreen to protect yourself");
+        }
+        }
+        
+        
+    }
